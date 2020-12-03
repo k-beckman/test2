@@ -1,0 +1,9 @@
+sessionInfo()
+version
+devtools::install_github("hadley/devtools")
+2
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install(version = "3.12")
+a
+git config --global user.email k.beckman.612@gmail.com 
